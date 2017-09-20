@@ -1,0 +1,16 @@
+{
+  "name": "my_react",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "babel virtual_dom.js --out-file virtual_dom_compiled.js"
+  },
+  "babel": {
+    "plugins": [
+      "transform-react-jsx"
+    ],
+    "ignore": [
+      "foo.js",
+      "bar/**/*.js"
+    ]
+  }
+}
